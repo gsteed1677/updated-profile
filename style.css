@@ -1,0 +1,48 @@
+/* added space background for more color */
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+/* Changes the background so the image was not showing through */
+nav {
+  background-color: #aed9ee;
+  overflow-x: hidden;
+}
+
+/* added coloring to the header of each page to work with theme */
+h4 {
+  color: #72a6c2;
+}
+/* added margin so the boxes were not up against the nav bar */
+
+.card {
+  margin-top: 5rem;
+}
+
+.notme {
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+p {
+  padding: 10px;
+  margin: 10px;
+  color: #475180;
+}
+
+footer {
+  text-align: center;
+}
+/* added margin and padding for a cleaner view */
+.img-fluid {
+  width: 350px;
+  height: 350px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+#center {
+  margin: auto;
+}
